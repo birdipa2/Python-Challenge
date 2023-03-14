@@ -2,24 +2,23 @@
 Module 3 Assignment for Data BootCamp
 
 >This repository contains 2 folders for each Python assignment: ["PyBank" and "PyPoll"] and and 1 readme file: ["README.md"].
->Each of the 2 folders further contain 3 sub-folders namely: ["Analysis", "Resources" and "Output"] and the main script to run for each analysis i.e. main.py
+>Each of the 2 folders further contain 2 sub-folders namely: ["Analysis", and "Resources"] and the main script to run for each analysis i.e. main.py
+>The folder 'Resources' consist of the csv files used to input data into the script.
+>The folder 'Analysis' consist of the text files generated as output of the script.
 
 PART 1: Financial Analysis with Python
 >This Python script analyzes the financial records of a company using data from a CSV file and outputs the results to a text file.
 
 Requirements
->Python 3.x
+>Visual Studio Code
 
 Usage
->Download the budget_data.csv file to the 'Resources' Folder in the same directory as the Python script.
-Additionally, create a 'Output' Folder in the same directory as the Python script.
+>Open the 'Python-Challenge' folder in Visual Studio Code.
+>It will set the input and output paths for the given script.
 
 Running the script
->To run the script, navigate to the directory where the Python script is saved and enter the following command in the terminal or command prompt:
-
-python main.py
-
->The script will print the analysis results to the console and save them to a text file named output.txt in a folder named output.
+>To run the script, navigate to and run the main.py file
+>The script will print the analysis results to the console and save them to a text file named output.txt in a folder named 'Analysis'.
 
 Output
 >The script outputs the following analysis results to the console and the text file:
@@ -34,17 +33,14 @@ PART 2: Election Results with Python
 >This script analyzes the results of a local election and calculates the total number of votes cast, the list of candidates who received votes, the percentage of votes each candidate won, the total number of votes each candidate won, and the winner of the election based on popular vote. The results are printed to the console and saved to a text file.
 
 Requirements
->To use this script, you'll need to have Python 3.x installed on your computer. 
+>Visual Studio Code
 
 Usage
->You'll need to download the election_data.csv file and save it to a folder called Resources in the same directory as the Python script.
-Additionally, create a 'Output' Folder in the same directory as the Python script.
+>Open the 'Python-Challenge' folder in Visual Studio Code.
+>It will set the input and output paths for the given script.
 
 Running the Script
->To run the script, navigate to the directory where the Python script is saved and enter the following command in the terminal or command prompt:
-
-python main.py
-
+>To run the script, navigate to and run the main.py file
 >The script will then execute and output the results to the console and a text file called election_results.txt.
 
 Output:
@@ -57,7 +53,7 @@ Output:
 >The winner of the election based on popular vote
 >The results will be printed to the console in the following format:
 
->The results will also be saved to a text file called election_results.txt in the 'Output' Folder which is in the same directory as the Python script.
+>The results will also be saved to a text file called election_results.txt in the 'Analysis' Folder which is in the same directory as the Python script.
 
 Acknowledgments 
 >This script was created by 'Paramdeep Singh Birdi' as part of 'DATA BOOTCAMP UofT'. The script uses built-in functions in Python and does not require any third-party libraries or tools.
