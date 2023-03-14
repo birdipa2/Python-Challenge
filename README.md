@@ -1,6 +1,9 @@
 # Python-Challenge
 Module 3 Assignment for Data BootCamp
 
+>This repository contains 2 folders for each Python assignment: ["PyBank" and "PyPoll"] and and 1 readme file: ["README.md"].
+>Each of the 2 folders further contain 3 sub-folders namely: ["Analysis", "Resources" and "Output"] and the main script to run for each analysis i.e. main.py
+
 PART 1: Financial Analysis with Python
 >This Python script analyzes the financial records of a company using data from a CSV file and outputs the results to a text file.
 
