@@ -42,7 +42,7 @@ print(f"Winner: {winner}")
 print("-------------------------")
 
 # Write the results to a text file and define the output path
-with open("PyPoll/Output/election_results.txt", "w") as textfile:
+with open("PyPoll/Analysis/election_results.txt", "w") as textfile:
     textfile.write("Election Results\n")
     textfile.write("-------------------------\n")
     textfile.write(f"Total Votes: {total_votes}\n")
@@ -54,8 +54,3 @@ with open("PyPoll/Output/election_results.txt", "w") as textfile:
     textfile.write("-------------------------\n")
     textfile.write(f"Winner: {winner}\n")
     textfile.write("-------------------------\n")
-
-
-
-        
-

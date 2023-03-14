@@ -1,8 +1,9 @@
+import os
 import csv
 
 # Set up the input and output files
 input_filepath="PyBank/Resources/budget_data.csv"
-output_filepath="PyBank/Output/budget_data.txt"
+output_filepath="PyBank/Analysis/budget_data.txt"
 
 # Initialize the variables
 total_months = 0
